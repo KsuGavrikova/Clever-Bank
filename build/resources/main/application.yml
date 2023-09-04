@@ -1,0 +1,4 @@
+accrualCount: 1
+url: jdbc:postgresql://127.0.0.1:5432/clever-bank?useUnicode=yes&characterEncoding=utf8
+username: postgres
+password:

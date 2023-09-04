@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'io.freefair.lombok' version '8.3'
+}
+
+group 'com.clevertec.cb'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile){
+    options.encoding = 'UTF-8'
+}
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.1.4'
+    testImplementation 'junit:junit:4.13.1'
+}
+
+test {
+    useJUnitPlatform()
+}
