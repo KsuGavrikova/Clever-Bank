@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.clevertec.cb"},{"l":"com.clevertec.cb.model"},{"l":"com.clevertec.cb.repository"},{"l":"com.clevertec.cb.repository.impl"},{"l":"com.clevertec.cb.service"},{"l":"com.clevertec.cb.threads"},{"l":"com.clevertec.cb.util"}]
