@@ -1,7 +1,10 @@
 com.clevertec.cb
+com.clevertec.cb.controller
+com.clevertec.cb.controller.impl
 com.clevertec.cb.model
 com.clevertec.cb.repository
 com.clevertec.cb.repository.impl
 com.clevertec.cb.service
 com.clevertec.cb.threads
+com.clevertec.cb.ui
 com.clevertec.cb.util
